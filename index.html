@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="font-title"><a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a></h3>
+        <p>JavaScript Calculator</p>
+
+        <div class="outputDiv">
+            <h1 class="outputInt">0</h1> <!-- max #s: 000,000,000,000,000 -->
+            <h3 class="operation">0</h3>
+        </div>
+
+        <div class="myButtons">
+            <button class="action-button animate red" id="clearAC" onclick="clearAll()">AC</button>
+            <button class="action-button animate red" id="clearCE" onclick="clearAll()">CE</button>
+            <button class="action-button animate drk-green" id="divide">/</button>
+            <button class="action-button animate drk-green" id="multiply">x</button><br />
+
+            <button class="action-button animate green" id="seven">7</button>
+            <button class="action-button animate green" id="eight">8</button>
+            <button class="action-button animate green" id="nine">9</button>
+            <button class="action-button animate drk-green" id="subtract">-</button><br />
+
+            <button class="action-button animate green" id="four">4</button>
+            <button class="action-button animate green" id="five">5</button>
+            <button class="action-button animate green" id="six">6</button>
+            <button class="action-button animate drk-green" id="sum">+</button><br />
+
+            <button class="action-button animate green button1" id="one">1</button>
+            <button class="action-button animate green" id="two">2</button>
+            <button class="action-button animate green" id="three">3</button>
+            <button class="action-button animate drk-green buttonEql" id="equals">=</button><br />
+
+            <button class="action-button animate green button0" id="zero">0</button>
+            <button class="action-button animate green buttonDot" id="decimal">.</button>
+        </div>
+    </div>
+
+    <p class="myFooter"><i class="fa fa-code" aria-hidden="true" style="font-size: 20px;"></i> by <a href="https://www.linkedin.com/in/samlegros/" target="_blank">Sam Legros</a></p>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="scripts/script.js"></script>
+</html>
